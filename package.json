@@ -1,9 +1,17 @@
 {
   "name": "upload-preview",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "./src/index.js",
+  "description": "Vue上传图片回显，删除和重选",
+  "author": "tingguang_yan666@163.com",
+  "keywords": [
+    "Vue",
+    "upload",
+    "preview"
+  ],
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build"
   },
   "dependencies": {
@@ -13,6 +21,8 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-service": "^3.11.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
     "vue-template-compiler": "^2.6.10"
   }
 }
