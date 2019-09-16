@@ -7,9 +7,9 @@ npm install upload-showed -S
 
 ### how to use
 ```
-import UploadPreview from 'upload-showed'
-Vue.use(UploadPreview)
-<upload-preview></upload-preview>
+import UploadShowed from 'upload-showed'
+Vue.use(UploadShowed)
+<upload-showed></upload-showed>
 ```
 
 ### Customize configuration

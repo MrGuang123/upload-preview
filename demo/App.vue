@@ -2,14 +2,14 @@
   <div id="app">
     <img alt="Vue logo" src="./logo.png">
     <div class="com-wrap">
-      <upload-preview :imageSrc="logo"
-      ></upload-preview>
+      <upload-showed :imageSrc="logo"
+      ></upload-showed>
     </div>
   </div>
 </template>
 
 <script>
-import UploadPreview from '../src/components/upload-preview.vue'
+import UploadShowed from '../src/components/upload-showed.vue'
 import logo from './logo.png'
 
 export default {
@@ -20,7 +20,7 @@ export default {
     }
   },
   components: {
-    UploadPreview
+    UploadShowed
   }
 }
 </script>

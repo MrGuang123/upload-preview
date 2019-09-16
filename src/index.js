@@ -1,8 +1,8 @@
-import UploadPreview from './components/upload-preview.vue'
+import UploadShowed from './components/upload-showed.vue'
 
 const install = Vue => {
   if (install.installed) return
-  Vue.component('UploadPreview', UploadPreview)
+  Vue.component('UploadShowed', UploadShowed)
 }
 
 if (window && window.Vue) {
