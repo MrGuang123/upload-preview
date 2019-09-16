@@ -129,10 +129,17 @@ export default {
     left: 0;
     background: #fff;
     z-index: 5;
+    overflow: hidden;
+    &:hover {
+      .img-control {
+        bottom: 0;
+      }
+    }
     .img-control {
+      transition: all 0.5s;
       position: absolute;
       left: 0;
-      bottom: 0;
+      bottom: -40px;
       width: 100%;
       height: 40px;
       background: rgba(0, 0, 0, 0.3);
