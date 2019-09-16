@@ -1,6 +1,6 @@
 {
   "name": "upload-showed",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "private": false,
   "main": "./src/index.js",
   "description": "Vue上传图片回显，删除和重选",
