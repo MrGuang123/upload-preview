@@ -1,28 +1,15 @@
-# upload-preview
+# upload-showed
 
-## Project setup
+## install
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install upload-showed -S
 ```
 
-### Compiles and minifies for production
+### how to use
 ```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
+import UploadPreview from 'upload-showed'
+Vue.use(UploadPreview)
+<upload-preview></upload-preview>
 ```
 
 ### Customize configuration
