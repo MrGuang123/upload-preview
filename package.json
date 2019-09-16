@@ -1,5 +1,5 @@
 {
-  "name": "upload-preview",
+  "name": "upload-show",
   "version": "0.1.0",
   "private": false,
   "main": "./src/index.js",
@@ -14,7 +14,7 @@
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build"
   },
-  "dependencies": {
+  "peerDependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
   },
